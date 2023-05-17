@@ -45,7 +45,6 @@ a{
     width: 30%;
     padding: 1.5%;
     font-size: 20px;
-    text-align: center;
     line-height: 25px;
     color: #474747;
 }
@@ -56,7 +55,7 @@ a{
     font-size: 23px;
     font-weight: bold;
 }
-.financiamento {
+.Agende a Sua data  {
     background: #ffda1f;
     text-align: center;
     font-size: 30px;
@@ -118,5 +117,126 @@ footer .item{
     margin-bottom: -80px;
 }
 .depoimentos .cliente .nome{
-    font =weight: bold;
+    font-weight: bold;
+    
+}
+.contato input, .contato textarea{
+    border-bottom: 2px solid #ffff;
+    height: 35px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    max-width: 250px;
+}
+textarea {
+    height: 50px;
+    max-width: 250px;
+}
+
+.contato button {
+    background: transparent;
+    color: #ffff;
+    border: 2px solid #ffff;
+    padding: 10px 40px;
+    font-size: 15px;
+    display: block;
+    border-radius: 25px;
+
+}.item.contato{
+    line-height: 30px;
+}
+
+.contato h3{
+    margin-bottom: 20px;  
+}
+
+.contato p {
+    line-height: 45px
+    
+}footer a{
+    color: #fff;
+}
+
+footer .social li {
+    display: inline-block;
+    padding: 20px;  
+    font-size: 50px;
+}
+
+footer .menu li{
+    line-height: 35px;
+}
+
+.content{
+    font-size: 20px;
+    line-height: 25px;
+    padding: 50px;  
+    
+}
+.div-50{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.faleconosco h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase ;
+
+}
+
+.faleconosco input{
+    background-color: #d2d2d2;
+    width: 250px;
+    padding: 10px 2px;
+
+}
+
+.faleconosco h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.faleconosco input, .faleconosco select, .faleconosco textarea {
+    background: #d2d2d2;
+    width: 250px;
+    padding: 10px 2px;
+}
+input[type=radio] {
+    width: 25px;
+    float: left;
+    margin: 5px 0;
+}
+
+.faleconosco ul li{
+    display: inline-block;
+    background-color: #d2d2d2;
+    padding: 10px;
+}
+.campo{
+    margin: 10px 0;
+}
+.faleconosco textarea{
+    width: 500px;
+    padding: 10px;
+}
+.sobre p{
+    text-align:  justify;
+    width: 95%;
+}   
+
+.clear{
+    clear: both
+}
+/*screen 480PX*/
+@media (max-width:480px){
+    body{
+        background-color: #000;
+    }
+    .contato{
+        display: none!important;
+    }
+    
 }
